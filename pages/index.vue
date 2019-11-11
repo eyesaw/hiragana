@@ -47,11 +47,12 @@
                 TestField(
                   :testData="hiragana"
                 )
+
               template(
-                v-if-else="mode == 1"
+                v-else-if="mode == 1"
               )
                 //- multiply choice
-                MultiplyChoice(
+                MultipleChoice(
                   :testData="hiragana"
                 )
     div(
@@ -74,7 +75,7 @@
 
 <script>
 import TestField from '~/components/TestField.vue'
-import MultiplyChoice from '~/components/MultiplyChoice.vue'
+import MultipleChoice from '~/components/MultipleChoice.vue'
 import SettingsPanel from '~/components/SettingsPanel.vue'
 import { mapMutations } from 'vuex';
 
@@ -82,7 +83,7 @@ export default {
   components: {
     TestField,
     SettingsPanel,
-    MultiplyChoice
+    MultipleChoice
   },
 
   computed: {

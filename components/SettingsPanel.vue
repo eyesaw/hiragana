@@ -34,7 +34,7 @@
                     .switch
                         label(
                             id="mode_1"
-                        )   multiply choice mode
+                        )   multiple choice mode
                             input(
                                 for="mode_1"
                                 type="radio"
