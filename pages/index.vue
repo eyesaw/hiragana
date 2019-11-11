@@ -63,7 +63,7 @@
         )
         .modal-card
             section(
-                class="modal-card-body"
+                class="modal-card-body has-background-dark"
             ) 
               SettingsPanel
         button(
@@ -118,8 +118,4 @@ export default {
 </script>
 
 <style>
-  main {
-    height:100vh;
-  }
-
-</style>
+  </style>

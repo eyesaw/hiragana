@@ -6,7 +6,7 @@
             class="column"
         )
             h1(
-                class="title"
+                class="title has-text-white"
             ) Settings
 
             section(
