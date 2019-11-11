@@ -1,0 +1,42 @@
+.switch {
+    &:not(:nth-child(1)) {
+        margin-top: 1rem;
+    }
+    
+    label {
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        input{
+            display: none;
+        }
+
+        .switch-box {
+            height: 1.8rem;
+            width: 3.2rem;
+            position: relative;
+            display: flex;
+            align-items: center;
+            
+            .switch-toggle {
+                border-radius: .2rem;
+                left: 0.3rem;
+                height: 75%;
+                width: 1.2rem;
+                background-color: $black-ter;
+                transition: all 0.2s ease;
+                position: relative;
+    
+                &.active {
+                    background-color: $primary;
+                    left: 1.3rem;
+                    width: 1.5rem;
+                }
+            }
+        }
+    }    
+}
+
+

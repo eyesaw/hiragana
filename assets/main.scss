@@ -1,0 +1,15 @@
+$material-icons-font-path: '~material-icons/iconfont/';
+ @import '~material-icons/iconfont/material-icons.scss';
+
+/* Import Bulma Utilities */
+@import '~bulma/sass/utilities/initial-variables';
+@import '~bulma/sass/utilities/functions';
+/* Variable changes go here */
+
+// Colours
+$primary: rgb(22, 175, 116);
+$secondary: #05A8AA;
+/* Import the rest of Bulma */
+@import '~bulma';
+@import 'custom-classes';
+@import 'switch';
