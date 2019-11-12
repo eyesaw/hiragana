@@ -63,7 +63,7 @@
         )
         .modal-card
             section(
-                class="modal-card-body has-background-dark"
+                class="modal-card-body has-background-dark border"
             ) 
               SettingsPanel
         button(

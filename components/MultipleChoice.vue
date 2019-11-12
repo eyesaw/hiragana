@@ -12,7 +12,7 @@
                     class="column is-narrow"
                 )
                     div(
-                        :class="['icon', 'symbol', 'border', {'error': error}]"
+                        :class="['icon', 'symbol', 'border', 'small', {'error': error}]"
                     ) {{ question }}
         
             div(

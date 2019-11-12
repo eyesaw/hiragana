@@ -95,6 +95,36 @@ export const state = () => ({
       {"pe":"ぺ"},
       {"po":"ぽ"}
     ],
+    [
+      {"kya":"きゃ"},
+      {"kyu":"きゅ"},
+      {"kyo":"きょ"},
+    ],
+    [
+      {"sha":"しゃ"},
+      {"shu":"しゅ"},
+      {"sho":"しょ"},
+    ],
+    [
+      {"nya":"にゃ"},
+      {"nyu":"にゅ"},
+      {"nyo":"にょ"},
+    ], 
+    [
+      {"hya":"ひゃ"},
+      {"hyu":"ひゅ"},
+      {"hyo":"ひょ"},
+    ],
+    [
+      {"mya":"みゃ"},
+      {"myu":"みゅ"},
+      {"myo":"みょ"}
+    ],
+    [
+      {"rya":"りゃ"},
+      {"ryu":"りゅ"},
+      {"ryo":"りょ"},
+    ],
   ],
 
   selectedHiragana: []
@@ -108,26 +138,12 @@ export const mutations = {
   addSelectedHiragana(state, selectedCharacter) {
     state.selectedHiragana.push(selectedCharacter);
   },
-
-  removeSelectedHiragana(state, selectedCharacter) {
-    // Todo: state.selectedHiragana.push(selectedCharacter);
-  }
 }
 
 export const getters = {
   getHiragana(state) {
     return state.hiragana
-  },
-  
-  // getHiraganaCharacter(state, id) {
-  //   for (let i in state.hiragana) {
-  //     for (let o in state.hiragana[i]) {
-  //       console.log(state.hiragana[i][o])
-  //     }
-  //   }
-  // },
-
-  
+  },  
   
   getSelectedHiragana(state) {
     return state.selectedHiragana
