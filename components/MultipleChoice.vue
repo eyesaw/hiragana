@@ -16,7 +16,7 @@
                     ) {{ question }}
         
             div(
-                class="columns is-centered is-mobile"
+                class="columns is-centered"
             )
                 div(
                     class="column is-half is-relative button-wrapper"

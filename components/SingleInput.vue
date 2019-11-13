@@ -71,7 +71,7 @@
             )
             .modal-card
                 section(
-                    class="modal-card-body"
+                    class="modal-card-body has-background-dark border"
                 ) the answer is ... 
                     b {{ answer }}
             button(

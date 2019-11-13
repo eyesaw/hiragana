@@ -10,7 +10,7 @@
           class="column is-one-third"
         )
           div(
-            class="columns is-centered"
+            class="columns is-centered is-mobile"
           )
             div(
               class="column is-narrow"
@@ -44,7 +44,7 @@
                 v-if="mode == 0"
               ) 
                 //- classic q/a
-                TestField(
+                SingleInput(
                   :testData="hiragana"
                 )
 
@@ -74,14 +74,14 @@
 </template>
 
 <script>
-import TestField from '~/components/TestField.vue'
+import SingleInput from '~/components/SingleInput.vue'
 import MultipleChoice from '~/components/MultipleChoice.vue'
 import SettingsPanel from '~/components/SettingsPanel.vue'
 import { mapMutations } from 'vuex';
 
 export default {
   components: {
-    TestField,
+    SingleInput,
     SettingsPanel,
     MultipleChoice
   },
