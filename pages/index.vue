@@ -45,7 +45,8 @@
               ) 
                 //- classic q/a
                 SingleInput(
-                  :testData="hiragana"
+                  v-if="testData"
+                  :testData="testData"
                 )
 
               template(
@@ -53,7 +54,8 @@
               )
                 //- multiply choice
                 MultipleChoice(
-                  :testData="hiragana"
+                  v-if="testData"
+                  :testData="testData"
                 )
     div(
         :class="['modal', {'is-active': modalStatus}]"
@@ -77,7 +79,6 @@
 import SingleInput from '~/components/SingleInput.vue'
 import MultipleChoice from '~/components/MultipleChoice.vue'
 import SettingsPanel from '~/components/SettingsPanel.vue'
-import { mapMutations } from 'vuex';
 
 export default {
   components: {
@@ -87,9 +88,6 @@ export default {
   },
 
   computed: {
-    hiragana() {
-      return this.$store.getters["hiragana/getSelectedHiragana"];
-    },
     mode() {
       return this.$store.getters["settings/getMode"];
     }
@@ -97,19 +95,27 @@ export default {
   data(){
       return {
           modalStatus: false,
+          testData: null
       }
   },
   created(){
-    let h = this.$store.getters["hiragana/getHiragana"];
+    this.$store.dispatch("hiragana/addHiragana");
+    this.$store.dispatch("hiragana/addKatakana");
+    this.testData = this.$store.getters["hiragana/getSelectedHiragana"]
 
-    for (let i in h) {
-      for (let x in h[i]) {
-        this.$store.commit("hiragana/addSelectedHiragana", h[i][x])
-      }
-    }
+    this.$store.watch(() => this.$store.getters["settings/getCharset"], (data) => this.allocateCharset(data));
   },
-
   methods: {
+    allocateCharset(charsetData) {
+      this.testData = [];
+      charsetData.map(name => {
+        let charset = this.$store.getters["hiragana/getSelected" + name];
+        charset.map(item => {
+          this.testData.push(item);
+        });
+      });
+    },
+
     toggleModal() {
       this.modalStatus = !this.modalStatus;
     },

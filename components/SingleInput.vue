@@ -45,7 +45,7 @@
                 )
                     button(
                         class="button is-primary"
-                        @click="getNewTestData()"
+                        @click="getNewTestData(); skipped++"
                     ) New
             div(
                 class="columns is-centered is-mobile"
@@ -56,6 +56,12 @@
                     p(
                         class="bd-notification has-text-primary"
                     ) Success: {{ success }}
+                div(
+                    class="column is-narrow"
+                )
+                    p(
+                        class="bd-notification"
+                    ) Skipped: {{ skipped }}
                 div(
                     class="column is-narrow"
                 )
@@ -98,6 +104,7 @@ export default {
             userInput: "",
             errorCount: 0,
             success: 0,
+            skipped: 0,
             modalStatus: false,
             error: false,
             checkClass: false,
@@ -143,7 +150,7 @@ export default {
             this.checkClass = false;
         },
 
-        getRandomSelectedHiraganaCharacter(state) {
+        getRandomSelectedHiraganaCharacter() {
             let randomInt = Math.floor(Math.random() * ((this.testData.length - 1) - 0 + 1)) + 0;
             return this.testData[randomInt];
         },
