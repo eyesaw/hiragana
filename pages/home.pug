@@ -1,0 +1,74 @@
+main(
+  class="has-background-dark has-text-light"
+) 
+    .container
+        div(
+          class="columns is-centered"
+        )
+            div(
+              class="column is-one-third"
+            )
+                div(
+                  class="columns is-centered is-mobile"
+                )
+                    div(
+                      class="column is-narrow"
+                    )
+                        div(
+                          class="settings"
+                        )
+                            span(
+                              class="icon is-small"
+                            )
+                                span(
+                                  :class="['material-icons' , {'is-active': modalStatus}]"
+                                  @click="toggleModal"
+                                ) settings
+                div(
+                  class="columns is-centered is-mobile"
+                )
+                    div(
+                      class="column is-narrow"
+                    )
+                        h1(
+                          class="title has-text-primary is-family-secondary"
+                        ) Learn Hiragana
+                            span(
+                              class="subhead"
+                            ) ひらがなを学ぶ
+
+                .columns
+                    .column
+                        template(
+                          v-if="mode == 0"
+                        ) 
+                            //- classic q/a
+                            SingleInput(
+                              v-if="testData"
+                              :testData="testData"
+                            )
+
+                        template(
+                          v-else-if="mode == 1"
+                        )
+                            //- multiply choice
+                            MultipleChoice(
+                              v-if="testData"
+                              :testData="testData"
+                            )
+        div(
+            :class="['modal', {'is-active': modalStatus}]"
+        )
+            .modal-background(
+                @click="toggleModal()"
+            )
+            .modal-card
+                section(
+                    class="modal-card-body has-background-dark border"
+                ) 
+                  SettingsPanel
+            button(
+                aria-label="close"
+                class="modal-close"
+                @click="toggleModal()"
+            )

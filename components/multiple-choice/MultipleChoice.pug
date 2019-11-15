@@ -1,0 +1,43 @@
+section(
+    class="columns"
+)
+    div(
+        class="column"
+    )
+        div(
+            class="columns is-centered is-mobile"
+        )
+            div(
+                class="column is-narrow"
+            )
+                div(
+                    :class="['icon', 'symbol', 'border', 'small', {'error': error}]"
+                ) {{ question }}
+    
+        div(
+            class="columns is-centered"
+        )
+            div(
+                class="column is-relative button-wrapper"
+            )   
+                button(
+                    v-for="c in choices"
+                    @click="checkAnswert(Object.keys(c)[0])"
+                    class="button is-primary"
+                ) {{ Object.values(c)[0] }}
+
+        div(
+            class="columns is-centered is-mobile"
+        )
+            div(
+                class="column is-narrow"
+            )
+                p(
+                    class="bd-notification has-text-primary"
+                ) Success: {{ success }}
+            div(
+                class="column is-narrow"
+            )
+                p(
+                    class="bd-notification error"
+                ) Error: {{ errorCount }}
