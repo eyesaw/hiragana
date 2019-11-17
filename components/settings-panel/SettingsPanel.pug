@@ -1,24 +1,47 @@
 section(
-    class="columns"
+    class="columns settings"
 )
     div(
         class="column"
     )
         h1(
             class="title has-text-white"
-        ) Settings
+        ) {{ $t('settings.title') }}
 
+        div(
+            class="columns"
+        )
+            div(
+                class="column"
+            )
+                div(
+                    class="select"
+                )
+                    label 
+                        span {{ $t('settings.i18n.title') }}
+                        select(
+                            v-model="i18n"
+                        )
+                            option(
+                                value="en"
+                            ) {{ $t('settings.i18n.english') }}
+                            option(
+                                value="de"
+                            ) {{ $t('settings.i18n.german') }}
+            div(
+                class="column"
+            )
         section(
             class="columns"
         )
             div(
                 class="column"
             )
-                h4 Mode 
+                b {{ $t('settings.mode.title') }} 
                 .switch
                     label(
                         id="mode_0"
-                    )   default
+                    )   {{ $t('settings.mode.defaultMode') }} 
                         input(
                             for="mode_0"
                             type="radio"
@@ -33,7 +56,7 @@ section(
                 .switch
                     label(
                         id="mode_1"
-                    )   multiple choice
+                    )   {{ $t('settings.mode.multipleChoiceMode') }} 
                         input(
                             for="mode_1"
                             type="radio"
@@ -48,7 +71,7 @@ section(
             div(
                 class="column"
             )
-                h4 Charset
+                b {{ $t('settings.charset') }} 
                 .switch
                     label(
                         id="charset_0"
@@ -79,3 +102,4 @@ section(
                             .switch-toggle(
                                 :class="[{'active': charsetKatakana }]"
                             )
+        

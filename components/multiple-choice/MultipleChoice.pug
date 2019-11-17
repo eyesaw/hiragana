@@ -34,10 +34,10 @@ section(
             )
                 p(
                     class="bd-notification has-text-primary"
-                ) Success: {{ success }}
+                ) {{ $t('defaultButtons.success') }}: {{ success }}
             div(
                 class="column is-narrow"
             )
                 p(
                     class="bd-notification error"
-                ) Error: {{ errorCount }}
+                ) {{ $t('defaultButtons.error') }}: {{ errorCount }}

@@ -9,6 +9,10 @@ export default {
     charset(charset) {
       this.$store.commit('settings/setCharset', charset);
     },
+
+    i18n(data) {
+      this.$i18n.locale = data;
+    },
   },
   computed: {
     charsetHiragana() {
@@ -33,6 +37,7 @@ export default {
     return {
       mode: 0,
       charset: ['Hiragana'],
+      i18n: 'en',
     };
   },
   methods: {

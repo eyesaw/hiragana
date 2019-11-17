@@ -44,7 +44,21 @@ main {
     > .icon {
         cursor: pointer;
     }
+
+    .select {
+        width: 100%;
+        label {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            & > * {
+                display: block;
+            }
+        }
+    }
 }
+
 
 .is-relative {
     position: relative;

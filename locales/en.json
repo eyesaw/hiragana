@@ -1,0 +1,468 @@
+{
+    "defaultButtons": {
+        "peek": "Peek",
+        "new": "new",
+        "success": "Success",
+        "skipped": "Skipped",
+        "error": "Error"
+    },
+    "singleInput": {
+        "modalCard": "The answer is"
+    },
+    "settings": {
+      "title": "Settings",
+      "i18n": {
+        "title": "Language",
+        "german": "German",
+        "english": "English"
+      },
+      "mode": {
+          "title": "Mode",
+          "defaultMode": "Default",
+          "multipleChoiceMode": "Multiple choice"
+      },
+      "charset": "Charset"
+    },
+    "vocabularyTest": {
+      "tokoro": {
+          "symbols": {
+              "hiragana": "ところ",
+              "katakana": "トコロ",
+              "kanji": "所"
+          },
+          "translation": ["Address"]
+      },
+      "kaori": {
+          "symbols": {
+              "hiragana": "かおり",
+              "katakana": "カオリ",
+              "kanji": "香り"
+          },
+          "translation": ["Flavor"]
+      },
+      "kuruma": {
+          "symbols": {
+              "hiragana": "くるま",
+              "katakana": "クルマ",
+              "kanji": "車"
+          },
+          "translation": ["Car"]
+      },
+      "basu": {
+          "symbols": {
+              "hiragana": "ばす",
+              "katakana": "バス"
+          },
+          "translation": ["Bus"]
+      },
+      "ofuro": {
+          "symbols": {
+              "hiragana": "おふろ",
+              "katakana": "オフロ",
+              "kanji": "お風呂"
+          },
+          "translation": ["Bathtub"]
+      },
+      "husen": {
+          "symbols": {
+              "hiragana": "",
+              "katakana": ""
+          },
+          "translation": ["Balloon"]
+      },
+      "hotai": {
+          "symbols": {
+              "hiragana": "ほうたい",
+              "katakana": "ホウタイ",
+              "kanji": "包帯"
+          },
+          "translation": ["Bandage"]
+      },
+      "beddo": {
+          "symbols": {
+              "hiragana": "べっど",
+              "katakana": "ベッド"
+          },
+          "translation": ["Bed"]
+      },
+      "kitte": {
+          "symbols": {
+              "hiragana": "きって",
+              "katakana": "キッテ",
+              "kanji": "切手"
+          },
+          "translation": ["Postage stamp"]
+      },
+      "megane": {
+          "symbols": {
+              "hiragana": "めがね",
+              "katakana": "メガネ",
+              "kanji": "眼鏡"
+          },
+          "translation": ["Eyeglasses"]
+      },
+      "hon": {
+          "symbols": {
+              "hiragana": "ほん",
+              "katakana": "ホン",
+              "kanji": "本"
+          },
+          "translation": ["Book"]
+      },
+      "hako": {
+          "symbols": {
+              "hiragana": "はこ",
+              "katakana": "ハコ",
+              "kanji": "箱"
+          },
+          "translation": ["Box"]
+      },
+      "mado": {
+          "symbols": {
+              "hiragana": "まど",
+              "katakana": "マド",
+              "kanji": "窓"
+          },
+          "translation": ["Window"]
+      },
+      "bin": {
+          "symbols": {
+              "hiragana": "びん",
+              "katakana": "ビン",
+              "kanji": "瓶"
+          },
+          "translation": ["Bottle"]
+      },
+      "hikoki": {
+          "symbols": {
+              "hiragana": "ひこうき",
+              "katakana": "ヒコウキ",
+              "kanji": "飛行機"
+          },
+          "translation": ["Airplane"]
+      },
+      "shashin": {
+          "symbols": {
+              "hiragana": "しゃしん",
+              "katakana": "シャシン",
+              "kanji": "写真"
+          },
+          "translation": ["Image"]
+      },
+      "baiorin": {
+          "symbols": {
+              "hiragana": "ばいおりん",
+              "katakana": "バイオリン"
+          },
+          "translation": ["Geige"]
+      },
+      "okurimono": {
+          "symbols": {
+              "hiragana": "おくりもの",
+              "katakana": "オクリモノ"
+          },
+          "translation": ["Geschenk"]
+      },
+      "koppu": {
+          "symbols": {
+              "hiragana": "こっぷ",
+              "katakana": "コップ"
+          },
+          "translation": ["Glas"]
+      },
+      "taoru": {
+          "symbols": {
+              "hiragana": "たおる",
+              "katakana": "タオル"
+          },
+          "translation": ["Handtuch"]
+      },
+      "nouto": {
+          "symbols": {
+              "hiragana": "のうと",
+              "katakana": "ノウト"
+          },
+          "translation": ["Heft"]
+      },
+      "karenda": {
+          "symbols": {
+              "hiragana": "かれんだ",
+              "katakana": "カレンダ"
+          },
+          "translation": ["Kalender"]
+      },
+      "kushi": {
+          "symbols": {
+              "hiragana": "くし",
+              "katakana": "クシ"
+          },
+          "translation": ["Kamm"]
+      },
+      "kaado": {
+          "symbols": {
+              "hiragana": "かあど",
+              "katakana": "カアド"
+          },
+          "translation": ["Spielkarte"]
+      },
+      "makura": {
+          "symbols": {
+              "hiragana": "まくら",
+              "katakana": "マクラ"
+          },
+          "translation": ["Kopfkissen"]
+      },
+      "kago": {
+          "symbols": {
+              "hiragana": "かご",
+              "katakana": "カゴ"
+          },
+          "translation": ["Korb"]
+      },
+      "korukunuki": {
+          "symbols": {
+              "hiragana": "こるくぬき",
+              "katakana": "コルクヌキ"
+          },
+          "translation": ["Korkenzieher"]
+      },
+      "bourupen": {
+          "symbols": {
+              "hiragana": "ぼうるぺん",
+              "katakana": "ボウルペン"
+          },
+          "translation": ["Kugelschreiber"]
+      },
+      "hikidasi": {
+          "symbols": {
+              "hiragana": "ひきだし",
+              "katakana": "ヒキダシ"
+          },
+          "translation": ["Schublade"]
+      },
+      "denki": {
+          "symbols": {
+              "hiragana": "でんき",
+              "katakana": "デンキ"
+          },
+          "translation": ["Lampe"]
+      },
+      "chizu": {
+          "symbols": {
+              "hiragana": "ちず",
+              "katakana": "チズ"
+          },
+          "translation": ["Landkarte"]
+      },
+      "futon": {
+          "symbols": {
+              "hiragana": "ふとん",
+              "katakana": "フトン"
+          },
+          "translation": ["Matratze"]
+      },
+      "naihu": {
+          "symbols": {
+              "hiragana": "ないふ",
+              "katakana": "ナイフ"
+          },
+          "translation": ["Messer"]
+      },
+      "kami": {
+          "symbols": {
+              "hiragana": "かみ",
+              "katakana": "カミ"
+          },
+          "translation": ["Papier","Gott","hair"]
+      },
+      "bansoko": {
+          "symbols": {
+              "hiragana": "ばんそこ",
+              "katakana": "バンソコ"
+          },
+          "translation": ["Pflaster"]
+      },
+      "radjio": {
+          "symbols": {
+              "hiragana": "らじお",
+              "katakana": "ラジオ"
+          },
+          "translation": ["Radio"]
+      },
+      "tatami": {
+          "symbols": {
+              "hiragana": "たたみ",
+              "katakana": "タタミ"
+          },
+          "translation": ["Judomatte"]
+      },
+      "geki": {
+          "symbols": {
+              "hiragana": "げき",
+              "katakana": "ゲキ"
+          },
+          "translation": ["Schauspiel"]
+      },
+      "basami": {
+          "symbols": {
+              "hiragana": "ばさみ",
+              "katakana": "バサミ"
+          },
+          "translation": ["Schere"]
+      },
+      "kagi": {
+          "symbols": {
+              "hiragana": "かぎ",
+              "katakana": "カギ"
+          },
+          "translation": ["Schlüssel"]
+      },
+      "entotu": {
+          "symbols": {
+              "hiragana": "えんとつ",
+              "katakana": "エントツ"
+          },
+          "translation": ["Schornstein"]
+      },
+      "sekken": {
+          "symbols": {
+              "hiragana": "せっけん",
+              "katakana": "セッケン"
+          },
+          "translation": ["Seife"]
+      },
+      "napukin": {
+          "symbols": {
+              "hiragana": "なぷきん",
+              "katakana": "ナプキン"
+          },
+          "translation": ["Serviette"]
+      },
+      "pin": {
+          "symbols": {
+              "hiragana": "ぴん",
+              "katakana": "ピン"
+          },
+          "translation": ["Stecknadel"]
+      },
+      "isu": {
+          "symbols": {
+              "hiragana": "いす",
+              "katakana": "イス"
+          },
+          "translation": ["Stuhl"]
+      },
+      "jozai": {
+          "symbols": {
+              "hiragana": "じょざい",
+              "katakana": "ジョザイ"
+          },
+          "translation": ["Tablette"]
+      },
+      "kokuban": {
+          "symbols": {
+              "hiragana": "こくばん",
+              "katakana": "コクバン"
+          },
+          "translation": ["Tafel"]
+      },
+      "takushī": {
+          "symbols": {
+              "hiragana": "たくしー",
+              "katakana": "タクシー"
+          },
+          "translation": ["Taxi"]
+      },
+      "denwa": {
+          "symbols": {
+              "hiragana": "でんわ",
+              "katakana": "デンワ"
+          },
+          "translation": ["Telefon"]
+      },
+      "sara": {
+          "symbols": {
+              "hiragana": "さら",
+              "katakana": "サラ"
+          },
+          "translation": ["Teller"]
+      },
+      "teburu": {
+          "symbols": {
+              "hiragana": "てぶる",
+              "katakana": "テブル"
+          },
+          "translation": ["Tisch"]
+      },
+      "yume": {
+          "symbols": {
+              "hiragana": "ゆめ",
+              "katakana": "ユメ"
+          },
+          "translation": ["Traum"]
+      },
+      "taikó": {
+          "symbols": {
+              "hiragana": "たいこ",
+              "katakana": "タイコ"
+          },
+          "translation": ["Drum"]
+      },
+      "chikatetsu": {
+          "symbols": {
+              "hiragana": "ちかてつ",
+              "katakana": "チカテツ"
+          },
+          "translation": ["Subway"]
+      },
+      "tokei": {
+          "symbols": {
+              "hiragana": "とけい",
+              "katakana": "トケイ"
+          },
+          "translation": ["Clock"]
+      },
+      "bideo": {
+          "symbols": {
+              "hiragana": "びでお",
+              "katakana": "ビデオ"
+          },
+          "translation": ["Video"]
+      },
+      "meishi": {
+          "symbols": {
+              "hiragana": "めいし",
+              "katakana": "メイシ"
+          },
+          "translation": ["Business card"]
+      },
+      "mezamasidokei": {
+          "symbols": {
+              "hiragana": "めざましどけい",
+              "katakana": "メザマシドケイ"
+          },
+          "translation": ["Alarm"]
+      },
+      "wain-gurasu": {
+          "symbols": {
+              "hiragana": "わいんぐらす",
+              "katakana": "ワイングラス"
+          },
+          "translation": ["Wine glass"]
+      },
+      "shinbun": {
+          "symbols": {
+              "hiragana": "しんぶん",
+              "katakana": "シンブン"
+          },
+          "translation": ["Newspaper"]
+      },
+      "tabako": {
+          "symbols": {
+              "hiragana": "たばこ",
+              "katakana": "タバコ"
+          },
+          "translation": ["Cigarette"]
+      }
+  }
+}
