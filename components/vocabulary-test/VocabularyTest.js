@@ -271,8 +271,6 @@ export default {
     getRandomFromTestSet() {
       // eslint-disable-next-line max-len
       const randomInt = Math.floor(Math.random() * ((this.testData.length - 1) - 0 + 1)) + 0;
-      console.log(randomInt);
-
       return this.testData[randomInt];
     },
   },
