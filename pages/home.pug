@@ -55,7 +55,13 @@ main(
                             MultipleChoice(
                               v-if="testData"
                               :testData="testData"
-                            )
+                            )   
+
+                        template(
+                          v-else-if="mode == 2"
+                        )
+                            //- vocabulary
+                            VocabularyTest()
         div(
             :class="['modal', {'is-active': modalStatus}]"
         )

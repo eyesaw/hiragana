@@ -68,6 +68,23 @@ section(
                             .switch-toggle(
                                 :class="[{'active': (mode == 1) }]"
                             )
+
+                .switch
+                    label(
+                        id="mode_2"
+                    )   {{ $t('settings.mode.vocabularyMode') }} 
+                        input(
+                            for="mode_2"
+                            type="radio"
+                            value="2"
+                            v-model="mode"
+                            name="mode"
+                        )
+                        .switch-box.border
+                            .switch-toggle(
+                                :class="[{'active': (mode == 2) }]"
+                            )
+
             div(
                 class="column"
             )

@@ -11,9 +11,17 @@ section(
                 class="column is-narrow"
             )
                 div(
-                    :class="['icon', 'symbol', 'border', {'error': error}, {'small': (question.length > 1)}]"
-                ) {{ question }}
-
+                    class="vocabulary-chars"
+                )  
+                    div(
+                        class="symbol small border"
+                    ) {{ question.kanji }} 
+                    div(
+                        class="vocabulary-hiragana"
+                    ) {{ question.hiragana }}
+                    div(
+                        class="vocabulary-romaji"
+                    ) {{ question.romaji }}
         div(
             class="columns is-centered is-mobile"
         )
@@ -36,16 +44,24 @@ section(
                 class="column is-narrow"
             )
                 button(
+                    @click="checkAnswer()"
+                    class="button is-primary"
+                ) {{ $t('defaultButtons.check') }}
+
+            div(
+                class="column is-narrow"
+            )
+                button(
                     @click="toggleModal()"
                     class="button is-primary"
-                ) Peek
+                ) {{ $t('defaultButtons.peek') }}
             div(
                 class="column is-narrow"
             )
                 button(
                     class="button is-primary"
                     @click="getNewTestData(); skipped++"
-                ) New
+                ) {{ $t('defaultButtons.new') }}
         div(
             class="columns is-centered is-mobile"
         )
@@ -54,19 +70,19 @@ section(
             )
                 p(
                     class="bd-notification has-text-primary"
-                ) Success: {{ success }}
+                ) {{ $t('defaultButtons.success') }}: {{ success }}
             div(
                 class="column is-narrow"
             )
                 p(
                     class="bd-notification"
-                ) Skipped: {{ skipped }}
+                ) {{ $t('defaultButtons.skipped') }}: {{ skipped }}
             div(
                 class="column is-narrow"
             )
                 p(
                     class="bd-notification error"
-                ) Error: {{ errorCount }}
+                ) {{ $t('defaultButtons.error') }}: {{ errorCount }}
 
     div(
         :class="['modal', {'is-active': modalStatus}]"
@@ -77,8 +93,8 @@ section(
         .modal-card
             section(
                 class="modal-card-body has-background-dark border"
-            ) the answer is ... 
-                b {{ answer }}
+            ) {{ $t('singleInput.modalCard') }} ... 
+                b {{ answer }} {{ describtion }}
         button(
             aria-label="close"
             class="modal-close"

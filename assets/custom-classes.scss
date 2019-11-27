@@ -9,6 +9,20 @@
     }
 }
 
+.vocabulary-chars {
+    .symbol {
+        margin-bottom: 0.5rem;
+        width: auto;
+        padding: 0 1rem;
+    }
+
+    & > * {
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
 .border {
     border-radius: 0.5rem;
     border: 0.1rem solid $primary 

@@ -1,12 +1,14 @@
 import SingleInput from '~/components/single-input/SingleInput.vue';
 import MultipleChoice from '~/components/multiple-choice/MultipleChoice.vue';
 import SettingsPanel from '~/components/settings-panel/SettingsPanel.vue';
+import VocabularyTest from '~/components/vocabulary-test/VocabularyTest.vue';
 
 export default {
   components: {
     SingleInput,
     SettingsPanel,
     MultipleChoice,
+    VocabularyTest,
   },
 
   computed: {
@@ -21,6 +23,8 @@ export default {
     };
   },
   created() {
+    this.$i18n.locale = 'en';
+
     this.$store.dispatch('hiragana/addHiragana');
     this.$store.dispatch('hiragana/addKatakana');
     this.testData = this.$store.getters['hiragana/getSelectedHiragana'];
