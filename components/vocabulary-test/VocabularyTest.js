@@ -264,7 +264,7 @@ export default {
       const data = this.getRandomFromTestSet();
       this.question = data.japanese;
       this.answer = data.translation;
-      this.describtion = data.describtion;
+      this.describtion = data.describtion + ' - ' + data.japanese.romaji;
       this.error = false;
     },
 
