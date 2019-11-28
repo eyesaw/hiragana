@@ -231,7 +231,7 @@ export default {
           japanese: {
             romaji: 'tasukete',
             kanji: '助けて',
-            hiragana: '',
+            hiragana: 'たすけて',
           },
           translation: 'Hilfe',
           describtion: '',
