@@ -170,7 +170,7 @@ export default {
             kanji: 'どういたしまして',
             hiragana: '',
           },
-          translation: 'nichts zu danken',
+          translation: 'bitte',
           describtion: '(üblich)',
         },
         {
@@ -217,6 +217,123 @@ export default {
           },
           translation: 'Auf wiedersehen',
           describtion: '(üblich)',
+        },
+        {
+          japanese: {
+            romaji: 'toire',
+            kanji: 'トイレ',
+            hiragana: '',
+          },
+          translation: 'Toilette',
+          describtion: '',
+        },
+        {
+          japanese: {
+            romaji: 'tasukete',
+            kanji: '助けて',
+            hiragana: '',
+          },
+          translation: 'Hilfe',
+          describtion: '',
+        },
+        {
+          japanese: {
+            romaji: 'to iimasu',
+            kanji: '・・・といいます',
+            hiragana: '',
+          },
+          translation: 'Ich heiße',
+          describtion: '',
+        },
+        {
+          japanese: {
+            romaji: 'shite kudasai',
+            kanji: '・・・してください',
+            hiragana: '',
+          },
+          translation: 'Ich hätte gerne',
+          describtion: '',
+        },
+        {
+          japanese: {
+            romaji: 'ikura desuka?',
+            kanji: '・・・いくらですか？',
+            hiragana: '',
+          },
+          translation: 'Was kostet',
+          describtion: '',
+        },
+        {
+          japanese: {
+            romaji: 'Iriguchi',
+            kanji: '入口',
+            hiragana: 'いりぐち',
+          },
+          translation: 'Eingang',
+          describtion: '',
+        },
+        {
+          japanese: {
+            romaji: 'Deguchi',
+            kanji: '出口',
+            hiragana: 'でぐち',
+          },
+          translation: 'Ausgang',
+          describtion: '',
+        },
+        {
+          japanese: {
+            romaji: 'Hai',
+            kanji: 'はい',
+            hiragana: '',
+          },
+          translation: 'Ja',
+          describtion: '',
+        },
+        {
+          japanese: {
+            romaji: 'Iie',
+            kanji: 'いいえ',
+            hiragana: '',
+          },
+          translation: 'Nein',
+          describtion: '',
+        },
+        {
+          japanese: {
+            romaji: 'ningen',
+            kanji: '人間',
+            hiragana: 'にんげん',
+          },
+          translation: 'Mensch',
+          describtion: '',
+        },
+        {
+          japanese: {
+            romaji: 'jinrui',
+            kanji: '人類',
+            hiragana: 'じんるい',
+          },
+          translation: 'Menschlichkeit',
+          describtion: '',
+        },
+        {
+          japanese: {
+            romaji: 'otoko',
+            kanji: '男',
+            hiragana: 'おとこ',
+          },
+          translation: 'männlich',
+          describtion: '',
+        },
+        {
+          japanese: {
+            romaji: 'onna',
+            kanji: '女',
+            hiragana: 'おんな',
+          },
+          translation: 'Frau',
+          describtion: '',
         },
       ],
       userInput: '',
