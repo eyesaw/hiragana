@@ -335,6 +335,69 @@ export default {
           translation: 'Frau',
           describtion: '',
         },
+        {
+          japanese: {
+            romaji: 'iku',
+            kanji: 'いく',
+            hiragana: '',
+          },
+          translation: 'gehen',
+          describtion: '(ich/du)',
+        },
+        {
+          japanese: {
+            romaji: 'kuru',
+            kanji: '来る',
+            hiragana: 'くる',
+          },
+          translation: 'kommen',
+          describtion: '(ich/du)',
+        },
+        {
+          japanese: {
+            romaji: 'wakuru',
+            kanji: '分ける',
+            hiragana: 'わける',
+          },
+          translation: 'verstehen',
+          describtion: '(ich/du)',
+        },
+        {
+          japanese: {
+            romaji: 'suru',
+            kanji: 'する',
+            hiragana: '',
+          },
+          translation: 'machen',
+          describtion: '(ich/du)',
+        },
+        {
+          japanese: {
+            romaji: 'oishii',
+            kanji: 'おいしい',
+            hiragana: '',
+          },
+          translation: 'lecker',
+          describtion: '(es ist)',
+        },
+        {
+          japanese: {
+            romaji: 'subarashii',
+            kanji: 'すばらしい',
+            hiragana: '',
+          },
+          translation: 'großartig',
+          describtion: '(es ist)',
+        },
+        {
+          japanese: {
+            romaji: 'hayai',
+            kanji: 'はやい',
+            hiragana: '',
+          },
+          translation: 'früh',
+          describtion: '(es ist)',
+        },
       ],
       userInput: '',
       question: '',
