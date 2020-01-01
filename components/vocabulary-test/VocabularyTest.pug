@@ -15,7 +15,7 @@ section(
                 )  
                     div(
                         class="symbol small border"
-                    ) {{ question.kanji }} 
+                    ) {{ (question.kanji ? question.kanji : question.hiragana) }} 
                     div(
                         class="vocabulary-hiragana"
                     ) {{ question.hiragana }}
@@ -23,16 +23,13 @@ section(
             class="columns is-centered is-mobile"
         )
             div(
-                class="column is-half is-relative"
+                class="column is-relative button-wrapper"
             )
-                input(
-                    :class="['input', 'is-primary', 'has-background-black-bis', 'has-text-white', {'error': error}]"
-                    type="text" v-model="userInput"
-                )
-
-                span(
-                    :class="['check-icon', 'material-icons' , {'visible': checkClass}]"
-                ) done
+                button(
+                    v-for="c in choices"
+                    @click="checkAnswer(c.translation)"
+                    class="button is-primary font-small"
+                ) {{ c.translation }}
 
         div(
             class="columns is-centered is-mobile"
@@ -41,24 +38,9 @@ section(
                 class="column is-narrow"
             )
                 button(
-                    @click="checkAnswer()"
-                    class="button is-primary"
-                ) {{ $t('defaultButtons.check') }}
-
-            div(
-                class="column is-narrow"
-            )
-                button(
                     @click="toggleModal()"
                     class="button is-primary"
                 ) {{ $t('defaultButtons.peek') }}
-            div(
-                class="column is-narrow"
-            )
-                button(
-                    class="button is-primary"
-                    @click="getNewTestData(); skipped++"
-                ) {{ $t('defaultButtons.new') }}
         div(
             class="columns is-centered is-mobile"
         )
@@ -68,12 +50,6 @@ section(
                 p(
                     class="bd-notification has-text-primary"
                 ) {{ $t('defaultButtons.success') }}: {{ success }}
-            div(
-                class="column is-narrow"
-            )
-                p(
-                    class="bd-notification"
-                ) {{ $t('defaultButtons.skipped') }}: {{ skipped }}
             div(
                 class="column is-narrow"
             )
@@ -92,7 +68,7 @@ section(
                 class="modal-card-body has-background-dark border"
             ) {{ $t('singleInput.modalCard') }} ... 
                 b {{ answer }} 
-                span {{ describtion }}
+                span {{ description }}
         button(
             aria-label="close"
             class="modal-close"
