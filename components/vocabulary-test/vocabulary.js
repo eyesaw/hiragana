@@ -12,8 +12,8 @@ export default {
     {
       'japanese': {
         'romaji': 'imasen',
-        'hiragana': 'いませの',
-        'kanji': 'いませの',
+        'hiragana': 'いません',
+        'kanji': 'いません',
       },
       'translation': 'nicht anwesend sein',
       'description': '',
