@@ -8,29 +8,29 @@ section(
             class="title has-text-white"
         ) {{ $t('settings.title') }}
 
-        div(
-            class="columns"
-        )
-            div(
-                class="column"
-            )
-                div(
-                    class="select"
-                )
-                    label 
-                        span {{ $t('settings.i18n.title') }}
-                        select(
-                            v-model="i18n"
-                        )
-                            option(
-                                value="en"
-                            ) {{ $t('settings.i18n.english') }}
-                            option(
-                                value="de"
-                            ) {{ $t('settings.i18n.german') }}
-            div(
-                class="column"
-            )
+        //- div(
+        //-     class="columns"
+        //- )
+        //-     div(
+        //-         class="column"
+        //-     )
+        //-         div(
+        //-             class="select"
+        //-         )
+        //-             label 
+        //-                 span {{ $t('settings.i18n.title') }}
+        //-                 select(
+        //-                     v-model="i18n"
+        //-                 )
+        //-                     option(
+        //-                         value="en"
+        //-                     ) {{ $t('settings.i18n.english') }}
+        //-                     option(
+        //-                         value="de"
+        //-                     ) {{ $t('settings.i18n.german') }}
+        //-     div(
+        //-         class="column"
+        //-     )
         section(
             class="columns"
         )
@@ -83,40 +83,57 @@ section(
                         .switch-box.border
                             .switch-toggle(
                                 :class="[{'active': (mode == 2) }]"
-                            )
-
-            div(
-                class="column"
+                            )            
+            template(
+                v-if="mode < 2"
             )
-                b {{ $t('settings.charset') }} 
-                .switch
-                    label(
-                        id="charset_0"
-                    )   Hiragana
-                        input(
-                            for="charset_0"
-                            type="checkbox"
-                            value="Hiragana"
-                            v-model="computedCharset"
-                            name="charset"
-                        )
-                        .switch-box.border
-                            .switch-toggle(
-                                :class="[{'active': charsetHiragana }]"
+                div(
+                    class="column"
+                )
+                    b {{ $t('settings.charset') }} 
+                    .switch
+                        label(
+                            id="charset_0"
+                        )   Hiragana
+                            input(
+                                for="charset_0"
+                                type="checkbox"
+                                value="Hiragana"
+                                v-model="computedCharset"
+                                name="charset"
                             )
-                .switch
-                    label(
-                        id="charset_1"
-                    )   Katakana
-                        input(
-                            for="charset_1"
-                            type="checkbox"
-                            value="Katakana"
-                            v-model="computedCharset"
-                            name="charset"
-                        )
-                        .switch-box.border
-                            .switch-toggle(
-                                :class="[{'active': charsetKatakana }]"
+                            .switch-box.border
+                                .switch-toggle(
+                                    :class="[{'active': charsetHiragana }]"
+                                )
+                    .switch
+                        label(
+                            id="charset_1"
+                        )   Katakana
+                            input(
+                                for="charset_1"
+                                type="checkbox"
+                                value="Katakana"
+                                v-model="computedCharset"
+                                name="charset"
                             )
-        
+                            .switch-box.border
+                                .switch-toggle(
+                                    :class="[{'active': charsetKatakana }]"
+                                )
+            template(
+                v-else
+            )
+                div(
+                    class="column"
+                )
+                    b &nbsp;
+                    .switch
+                        label(
+                            @click="vocabularyMode = !vocabularyMode"
+                            id="reverse-vocabulary-mode"
+                        )   {{ $t('settings.mode.vocabularyWriteMode') }} 
+                            .switch-box.border
+                                .switch-toggle(
+                                    :class="[{'active': (vocabularyMode == 1) }]"
+                                )

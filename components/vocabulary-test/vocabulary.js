@@ -164,12 +164,12 @@ export default {
     },
     {
       'japanese': {
-        'romaji': 'Moo',
+        'romaji': 'moo',
         'hiragana': 'もう',
         'kanji': 'もう',
       },
       'translation': 'noch',
-      'description': '',
+      'description': 'Bereits',
     },
     {
       'japanese': {
@@ -269,6 +269,196 @@ export default {
       },
       'translation': 'Land',
       'description': '',
+    },
+
+    {
+      'japanese': {
+        'romaji': 'doozo yoroshiku',
+        'hiragana': 'どうぞよろしく',
+        'kanji': 'どうぞよろしく',
+      },
+      'translation': 'Freut mich Sie kennen zu lernen',
+      'description': '',
+    },
+    {
+      'japanese': {
+        'romaji': 'moo Ichido',
+        'hiragana': 'もういちど',
+        'kanji': 'もういちど',
+      },
+      'translation': 'noch einmal',
+      'description': '',
+    },
+    {
+      'japanese': {
+        'romaji': 'dekimasu',
+        'hiragana': 'できます',
+        'kanji': 'できます',
+      },
+      'translation': 'können',
+      'description': '',
+    },
+    {
+      'japanese': {
+        'romaji': 'dekimasen',
+        'hiragana': 'できません',
+        'kanji': 'できません',
+      },
+      'translation': 'nicht können',
+      'description': '',
+    },
+    {
+      'japanese': {
+        'romaji': 'doitsugo',
+        'hiragana': 'ドイツご',
+        'kanji': 'ドイツご',
+      },
+      'translation': 'Deutsch sprechen',
+      'description': 'Deutsche Sprache',
+    },
+    {
+      'japanese': {
+        'romaji': 'doitsu',
+        'hiragana': 'ドイツ',
+        'kanji': 'ドイツ',
+      },
+      'translation': 'Deutschland',
+      'description': '',
+    },
+    {
+      'japanese': {
+        'romaji': 'doitsujin',
+        'hiragana': 'ドイツじん',
+        'kanji': 'ドイツ人',
+      },
+      'translation': 'Deutsche',
+      'description': '',
+    },
+    {
+      'japanese': {
+        'romaji': 'dochira kara?',
+        'hiragana': 'どちらから',
+        'kanji': 'どちらから',
+      },
+      'translation': 'Woher kommen Sie',
+      'description': '',
+    },
+    {
+      'japanese': {
+        'romaji': 'soo desu ka',
+        'hiragana': 'そうですか',
+        'kanji': 'そうですか',
+      },
+      'translation': 'Achsoo',
+      'description': 'Ist das so',
+    },
+    {
+      'japanese': {
+        'romaji': 'no',
+        'hiragana': 'の',
+        'kanji': 'の',
+      },
+      'translation': 'von',
+      'description': '',
+    },
+    {
+      'japanese': {
+        'romaji': 'to',
+        'hiragana': 'と',
+        'kanji': 'と',
+      },
+      'translation': 'und',
+      'description': '',
+    },
+    {
+      'japanese': {
+        'romaji': 'nanigo',
+        'hiragana': 'なにご',
+        'kanji': 'なにご',
+      },
+      'translation': 'Welche Sprache',
+      'description': '',
+    },
+    {
+      'japanese': {
+        'romaji': 'muzukashi',
+        'hiragana': 'むずかし',
+        'kanji': 'むずかし',
+      },
+      'translation': 'schwer',
+      'description': 'im Sinne von schwer zu lernen',
+    },
+    {
+      'japanese': {
+        'romaji': 'oshigoto',
+        'hiragana': 'おしごと',
+        'kanji': 'おしごと',
+      },
+      'translation': 'Arbeit',
+      'description': '',
+    },
+    {
+      'japanese': {
+        'romaji': 'kyoshi',
+        'hiragana': 'きょうし',
+        'kanji': 'きょうし',
+      },
+      'translation': 'Lehrer',
+      'description': '',
+    },
+    {
+      'japanese': {
+        'romaji': 'gakusee',
+        'hiragana': 'がくせい',
+        'kanji': 'がくせい',
+      },
+      'translation': 'Schüler',
+      'description': 'Schüler, Student etc',
+    },
+    {
+      'japanese': {
+        'romaji': 'shufu',
+        'hiragana': 'しゅふ',
+        'kanji': 'しゅふ',
+      },
+      'translation': 'Hausfrau/mann',
+      'description': '',
+    },
+    {
+      'japanese': {
+        'romaji': 'enjinia',
+        'hiragana': 'エンジニア',
+        'kanji': 'エンジニア',
+      },
+      'translation': 'Ingineur',
+      'description': '',
+    },
+    {
+      'japanese': {
+        'romaji': 'koomuin',
+        'hiragana': 'こうむいん',
+        'kanji': 'こうむいん',
+      },
+      'translation': 'Beamter',
+      'description': '',
+    },
+    {
+      'japanese': {
+        'romaji': 'kaishan',
+        'hiragana': 'かいしゃいん',
+        'kanji': 'かいしゃいん',
+      },
+      'translation': 'Angestellter',
+      'description': 'oder Mitarbeiter',
+    },
+    {
+      'japanese': {
+        'romaji': 'benkyoo-chuu',
+        'hiragana': 'べんきょうちゅうです',
+        'kanji': 'べんきょうちゅうです',
+      },
+      'translation': 'Studieren',
+      'description': 'oder lernen',
     },
   ],
 

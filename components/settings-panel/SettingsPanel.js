@@ -13,6 +13,10 @@ export default {
     i18n(data) {
       this.$i18n.locale = data;
     },
+
+    vocabularyMode(vocabularyMode) {
+      this.$store.commit('settings/setVocabularyMode', vocabularyMode);
+    },
   },
   computed: {
     charsetHiragana() {
@@ -36,10 +40,15 @@ export default {
   data() {
     return {
       mode: 0,
+      vocabularyMode: false,
       charset: ['Hiragana'],
-      i18n: 'en',
+      i18n: 'de',
     };
   },
   methods: {
+    fuck() {
+      ;
+      console.log('trigger');
+    },
   },
 };

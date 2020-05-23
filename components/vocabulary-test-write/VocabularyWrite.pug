@@ -1,0 +1,94 @@
+section(
+    class="columns"
+)
+    div(
+        class="column"
+    )
+        div(
+            class="columns is-centered is-mobile"
+        )
+            div(
+                class="column is-narrow"
+            )
+                div(
+                    class="vocabulary-chars"
+                )  
+                    div(
+                        class="symbol small border"
+                    ) {{ testData.translation }}
+                    div(
+                        class="vocabulary-hiragana"
+                    ) {{ testData.description }}
+
+        div(
+            class="columns is-centered is-mobile"
+        )
+            div(
+                class="column"
+            )
+                input(
+                    class="input is-primary has-background-black-bis has-text-white"
+                    v-model="answer"
+                )
+
+        div(
+            class="columns is-centered is-mobile"
+        )
+            div(
+                class="column is-narrow"
+            )
+                button(
+                    @click="check()"
+                    class="button is-primary"
+                ) {{ $t('defaultButtons.check') }}
+            
+            div(
+                class="column is-narrow"
+            )
+                button(
+                    @click="toggleModal()"
+                    class="button is-primary"
+                ) {{ $t('defaultButtons.peek') }} 
+ 
+            div(
+                class="column is-narrow"
+            )
+                button(
+                    @click="getTestData()"
+                    class="button is-primary"
+                ) {{ $t('defaultButtons.new') }}
+        div(
+            class="columns is-centered is-mobile"
+        )
+            div(
+                class="column is-narrow"
+            )
+                p(
+                    class="bd-notification has-text-primary"
+                ) {{ $t('defaultButtons.success') }}: {{ success }}
+
+            div(
+                class="column is-narrow"
+            )
+                p(
+                    class="bd-notification error"
+                ) {{ $t('defaultButtons.error') }}: {{ errorCount }}
+
+    div(
+        :class="['modal', {'is-active': modalStatus}]"
+    )
+        .modal-background(
+            @click="toggleModal()"
+        )
+        .modal-card
+            section(
+                class="modal-card-body has-background-dark border"
+            ) {{ $t('singleInput.modalCard') }} ... 
+                div romaji: {{ this.testData.japanese.romaji }}
+                div hiragana: {{ this.testData.japanese.hiragana }}
+                div kanji: {{ this.testData.japanese.kanji }}
+        button(
+            aria-label="close"
+            class="modal-close"
+            @click="toggleModal()"
+        )

@@ -21,7 +21,8 @@
           "title": "Modus",
           "defaultMode": "Standard",
           "multipleChoiceMode": "Mehrfachauswahl",
-          "vocabularyMode": "Vokabeltest"
+          "vocabularyMode": "Vokabeltest",
+          "vocabularyWriteMode": "Eingabe Modus"
       },
       "charset": "Zeichensatz"
     }

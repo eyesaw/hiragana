@@ -2,6 +2,8 @@ import SingleInput from '~/components/single-input/SingleInput.vue';
 import MultipleChoice from '~/components/multiple-choice/MultipleChoice.vue';
 import SettingsPanel from '~/components/settings-panel/SettingsPanel.vue';
 import VocabularyTest from '~/components/vocabulary-test/VocabularyTest.vue';
+import VocabularyWrite
+  from '~/components/vocabulary-test-write/VocabularyWrite.vue';
 
 export default {
   components: {
@@ -9,11 +11,16 @@ export default {
     SettingsPanel,
     MultipleChoice,
     VocabularyTest,
+    VocabularyWrite,
   },
 
   computed: {
     mode() {
       return this.$store.getters['settings/getMode'];
+    },
+
+    getVocabularyMode() {
+      return this.$store.getters['settings/getVocabularyMode'];
     },
   },
   data() {
@@ -23,7 +30,7 @@ export default {
     };
   },
   created() {
-    this.$i18n.locale = 'en';
+    this.$i18n.locale = 'de';
 
     this.$store.dispatch('hiragana/addHiragana');
     this.$store.dispatch('hiragana/addKatakana');
