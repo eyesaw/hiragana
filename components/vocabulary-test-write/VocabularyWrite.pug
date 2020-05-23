@@ -38,9 +38,9 @@ section(
                 class="column is-narrow"
             )
                 button(
-                    @click="check()"
+                    @click="getTestData()"
                     class="button is-primary"
-                ) {{ $t('defaultButtons.check') }}
+                ) {{ $t('defaultButtons.new') }}
             
             div(
                 class="column is-narrow"
@@ -54,9 +54,9 @@ section(
                 class="column is-narrow"
             )
                 button(
-                    @click="getTestData()"
+                    @click="check()"
                     class="button is-primary"
-                ) {{ $t('defaultButtons.new') }}
+                ) {{ $t('defaultButtons.check') }}
         div(
             class="columns is-centered is-mobile"
         )
