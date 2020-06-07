@@ -474,7 +474,7 @@ export default {
       'japanese': {
         'romaji': 'chichi',
         'hiragana': 'ちち',
-        'kanji': 'b',
+        'kanji': 'ちち',
       },
       'translation': 'Vater',
       'description': '',
@@ -492,7 +492,7 @@ export default {
       'japanese': {
         'romaji': 'kodomo',
         'hiragana': 'こども',
-        'kanji': 'b',
+        'kanji': 'こども',
       },
       'translation': 'Kinder',
       'description': '',
@@ -501,7 +501,7 @@ export default {
       'japanese': {
         'romaji': 'ani',
         'hiragana': 'あに',
-        'kanji': 'b',
+        'kanji': 'あに',
       },
       'translation': 'großer Bruder',
       'description': '',
@@ -510,7 +510,7 @@ export default {
       'japanese': {
         'romaji': 'ane',
         'hiragana': 'あね',
-        'kanji': 'b',
+        'kanji': 'あね',
       },
       'translation': 'große Schwester',
       'description': '',
@@ -519,7 +519,7 @@ export default {
       'japanese': {
         'romaji': 'otooto',
         'hiragana': 'おとうと',
-        'kanji': 'b',
+        'kanji': 'おとうと',
       },
       'translation': 'kleiner Bruder',
       'description': '',
@@ -528,7 +528,7 @@ export default {
       'japanese': {
         'romaji': 'imooto',
         'hiragana': 'いもうと',
-        'kanji': 'b',
+        'kanji': 'いもうと',
       },
       'translation': 'kleine Schwester',
       'description': '',
@@ -537,7 +537,7 @@ export default {
       'japanese': {
         'romaji': 'hitori',
         'hiragana': 'ひとり',
-        'kanji': 'b',
+        'kanji': 'ひとり',
       },
       'translation': '1 Person',
       'description': '',
@@ -609,7 +609,7 @@ export default {
       'japanese': {
         'romaji': 'hachi-nin',
         'hiragana': 'はちにん',
-        'kanji': 'b',
+        'kanji': 'はちにん',
       },
       'translation': '8 Personen',
       'description': '',
@@ -672,7 +672,7 @@ export default {
       'japanese': {
         'romaji': 'oikutsudesuka',
         'hiragana': 'おいくつですか',
-        'kanji': 'b',
+        'kanji': 'おいくつですか',
       },
       'translation': 'Wie alt bist du',
       'description': '',
