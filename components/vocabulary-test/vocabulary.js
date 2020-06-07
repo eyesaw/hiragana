@@ -20,15 +20,6 @@ export default {
     },
     {
       'japanese': {
-        'romaji': 'sensee',
-        'hiragana': 'せんせい',
-        'kanji': 'せんせい',
-      },
-      'translation': 'Lehrer',
-      'description': '',
-    },
-    {
-      'japanese': {
         'romaji': 'kyooshitsu',
         'hiragana': 'きょうしつ',
         'kanji': 'きょうしつ',
@@ -70,15 +61,6 @@ export default {
         'kanji': 'よんで',
       },
       'translation': 'lesen',
-      'description': '',
-    },
-    {
-      'japanese': {
-        'romaji': 'san-peeji',
-        'hiragana': '3ページ',
-        'kanji': '3ページ',
-      },
-      'translation': 'Seite 3',
       'description': '',
     },
     {
@@ -195,7 +177,7 @@ export default {
         'hiragana': 'すこし',
         'kanji': 'すこし',
       },
-      'translation': 'einmal',
+      'translation': 'ein wenig',
       'description': '',
     },
     {
@@ -459,6 +441,287 @@ export default {
       },
       'translation': 'Studieren',
       'description': 'oder lernen',
+    },
+     
+    {
+      'japanese': {
+        'romaji': 'kazoku',
+        'hiragana': 'かぞく',
+        'kanji': '家族',
+      },
+      'translation': 'Familie',
+      'description': '',
+    },
+    {
+      'japanese': {
+        'romaji': 'otto',
+        'hiragana': 'おっと',
+        'kanji': '夫',
+      },
+      'translation': 'Ehemann',
+      'description': '',
+    },
+    {
+      'japanese': {
+        'romaji': 'tsuma',
+        'hiragana': 'つま',
+        'kanji': '妻',
+      },
+      'translation': 'Ehefrau',
+      'description': '',
+    },
+    {
+      'japanese': {
+        'romaji': 'chichi',
+        'hiragana': 'ちち',
+        'kanji': 'b',
+      },
+      'translation': 'Vater',
+      'description': '',
+    },
+    {
+      'japanese': {
+        'romaji': 'haha',
+        'hiragana': 'はは',
+        'kanji': '母',
+      },
+      'translation': 'Mutter',
+      'description': '',
+    },
+    {
+      'japanese': {
+        'romaji': 'kodomo',
+        'hiragana': 'こども',
+        'kanji': 'b',
+      },
+      'translation': 'Kinder',
+      'description': '',
+    },
+    {
+      'japanese': {
+        'romaji': 'ani',
+        'hiragana': 'あに',
+        'kanji': 'b',
+      },
+      'translation': 'großer Bruder',
+      'description': '',
+    },
+    {
+      'japanese': {
+        'romaji': 'ane',
+        'hiragana': 'あね',
+        'kanji': 'b',
+      },
+      'translation': 'große Schwester',
+      'description': '',
+    },
+    {
+      'japanese': {
+        'romaji': 'otooto',
+        'hiragana': 'おとうと',
+        'kanji': 'b',
+      },
+      'translation': 'kleiner Bruder',
+      'description': '',
+    },
+    {
+      'japanese': {
+        'romaji': 'imooto',
+        'hiragana': 'いもうと',
+        'kanji': 'b',
+      },
+      'translation': 'kleine Schwester',
+      'description': '',
+    },
+    {
+      'japanese': {
+        'romaji': 'hitori',
+        'hiragana': 'ひとり',
+        'kanji': 'b',
+      },
+      'translation': '1 Person',
+      'description': '',
+    },
+    {
+      'japanese': {
+        'romaji': 'futari',
+        'hiragana': 'ふたり',
+        'kanji': '二人',
+      },
+      'translation': '2 Personen',
+      'description': '',
+    },
+    {
+      'japanese': {
+        'romaji': 'san-nin',
+        'hiragana': 'さにん',
+        'kanji': '三人',
+      },
+      'translation': '3 Personen',
+      'description': '',
+    },
+    {
+      'japanese': {
+        'romaji': 'yo-nin',
+        'hiragana': 'よにん',
+        'kanji': '四人',
+      },
+      'translation': '4 Personen',
+      'description': '',
+    },
+    {
+      'japanese': {
+        'romaji': 'go-nin',
+        'hiragana': 'ごにん',
+        'kanji': '五人',
+      },
+      'translation': '5 Personen',
+      'description': '',
+    },
+    {
+      'japanese': {
+        'romaji': 'roku-nin',
+        'hiragana': 'ろくにん',
+        'kanji': '六人',
+      },
+      'translation': '6 Personen',
+      'description': '',
+    },
+    {
+      'japanese': {
+        'romaji': 'shishi-nin',
+        'hiragana': 'ししにん',
+        'kanji': '七人',
+      },
+      'translation': '7 Personen',
+      'description': '',
+    },
+    {
+      'japanese': {
+        'romaji': 'nana-nin',
+        'hiragana': 'ななにん',
+        'kanji': '七人',
+      },
+      'translation': '7 Personen',
+      'description': '',
+    },
+    {
+      'japanese': {
+        'romaji': 'hachi-nin',
+        'hiragana': 'はちにん',
+        'kanji': 'b',
+      },
+      'translation': '8 Personen',
+      'description': '',
+    },
+    {
+      'japanese': {
+        'romaji': 'kyuu-nin',
+        'hiragana': 'きゅうにん',
+        'kanji': '九人',
+      },
+      'translation': '9 Personen',
+      'description': '',
+    },
+    {
+      'japanese': {
+        'romaji': 'juu-nin',
+        'hiragana': 'じゅうにん',
+        'kanji': '十人',
+      },
+      'translation': '10 Personen',
+      'description': '',
+    },
+    {
+      'japanese': {
+        'romaji': 'nan-nin',
+        'hiragana': 'なんにん',
+        'kanji': 'なんにん',
+      },
+      'translation': 'Wie viele Leute',
+      'description': '',
+    },
+    {
+      'japanese': {
+        'romaji': 'kono',
+        'hiragana': 'この',
+        'kanji': 'の',
+      },
+      'translation': 'diese',
+      'description': '',
+    },
+    {
+      'japanese': {
+        'romaji': 'hito',
+        'hiragana': 'ひと',
+        'kanji': '人',
+      },
+      'translation': 'Person',
+      'description': '',
+    },
+    {
+      'japanese': {
+        'romaji': 'dare',
+        'hiragana': 'だれ',
+        'kanji': '誰',
+      },
+      'translation': 'wer',
+      'description': '',
+    },
+    {
+      'japanese': {
+        'romaji': 'oikutsudesuka',
+        'hiragana': 'おいくつですか',
+        'kanji': 'b',
+      },
+      'translation': 'Wie alt bist du',
+      'description': '',
+    },
+    {
+      'japanese': {
+        'romaji': 'doko',
+        'hiragana': 'どこ',
+        'kanji': 'どこ',
+      },
+      'translation': 'wo',
+      'description': 'welcher ort, wo?',
+    },
+    {
+      'japanese': {
+        'romaji': 'sundemasu',
+        'hiragana': 'すんでます',
+        'kanji': 'すんでます',
+      },
+      'translation': 'wohnen',
+      'description': '',
+    },
+    {
+      'japanese': {
+        'romaji': 'kakkoii',
+        'hiragana': 'かっこいい',
+        'kanji': 'かっこいい',
+      },
+      'translation': 'cool',
+      'description': 'nur männlich',
+    },
+    {
+      'japanese': {
+        'romaji': 'Kiree',
+        'hiragana': 'きれい',
+        'kanji': 'きれい',
+      },
+      'translation': 'schön',
+      'description': 'nur weiblich',
+    },
+    
+    {
+      'japanese': {
+        'romaji': 'kawaii',
+        'hiragana': 'かわいい',
+        'kanji': 'かわいい',
+      },
+      'translation': 'Süß',
+      'description': '',
     },
   ],
 
