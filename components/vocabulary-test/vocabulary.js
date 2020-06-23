@@ -554,7 +554,7 @@ export default {
     {
       'japanese': {
         'romaji': 'san-nin',
-        'hiragana': 'さにん',
+        'hiragana': 'さんにん',
         'kanji': '三人',
       },
       'translation': '3 Personen',
@@ -723,7 +723,278 @@ export default {
       'translation': 'Süß',
       'description': '',
     },
-  ],
+    {
+      'japanese': {
+        'romaji': 'nani',
+        'hiragana': 'なに',
+        'kanji': 'なに',
+      },
+      'translation': 'was',
+      'description': '',
+    },
+    {
+      'japanese': {
+        'romaji': 'suki',
+        'hiragana': 'すき',
+        'kanji': 'すき',
+      },
+      'translation': 'mögen',
+      'description': '',
+    },
+    {
+      'japanese': {
+        'romaji': 'niku',
+        'hiragana': 'にく',
+        'kanji': 'にく',
+      },
+      'translation': 'fleisch',
+      'description': '',
+    },
+    {
+      'japanese': {
+        'romaji': 'tabemasu',
+        'hiragana': 'たべます',
+        'kanji': 'たべます',
+      },
+      'translation': 'essen',
+      'description': '',
+    },
+    {
+      'japanese': {
+        'romaji': 'yasai',
+        'hiragana': 'やさい',
+        'kanji': 'やさい',
+      },
+      'translation': 'gemüse',
+      'description': '',
+    },
+    {
+      'japanese': {
+        'romaji': 'kudamono',
+        'hiragana': 'くだもの',
+        'kanji': 'くだもの',
+      },
+      'translation': 'obst',
+      'description': '',
+    },
+    {
+      'japanese': {
+        'romaji': 'tamago',
+        'hiragana': 'たまご',
+        'kanji': 'たまご',
+      },
+      'translation': 'ei',
+      'description': '',
+    },
+    {
+      'japanese': {
+        'romaji': 'pan',
+        'hiragana': 'パン',
+        'kanji': 'パン',
+      },
+      'translation': 'brot',
+      'description': '',
+    },
+    {
+      'japanese': {
+        'romaji': 'ko',
+        'hiragana': 'こ',
+        'kanji': 'こ',
+      },
+      'translation': 'Person',
+      'description': 'bei kindern',
+    },
+    {
+      'japanese': {
+        'romaji': 'shiru',
+        'hiragana': 'しる',
+        'kanji': 'しる',
+      },
+      'translation': 'suppe',
+      'description': '',
+    },
+    {
+      'japanese': {
+        'romaji': 'misoshiru',
+        'hiragana': 'みそしる',
+        'kanji': 'みそしる',
+      },
+      'translation': 'misosuppe',
+      'description': '',
+    },
+    {
+      'japanese': {
+        'romaji': 'gohan',
+        'hiragana': 'ごはん',
+        'kanji': 'ごはん',
+      },
+      'translation': 'gekochter reis',
+      'description': '',
+    },
+    {
+      'japanese': {
+        'romaji': 'nanigasukidesuka',
+        'hiragana': 'なにがすきですか',
+        'kanji': 'なにがすきですか',
+      },
+      'translation': 'was magst du',
+      'description': '',
+    },
+    {
+      'japanese': {
+        'romaji': 'sakana',
+        'hiragana': 'さかな',
+        'kanji': 'さかな',
+      },
+      'translation': 'fisch',
+      'description': '',
+    },
+    {
+      'japanese': {
+        'romaji': 'nikugasukidesuka',
+        'hiragana': 'にくがすきですか',
+        'kanji': 'にくがすきですか',
+      },
+      'translation': 'magst du fleisch',
+      'description': '',
+    },
+    {
+      'japanese': {
+        'romaji': 'sakanamosukidesu',
+        'hiragana': 'さかなもすきです',
+        'kanji': 'さかなもすきです',
+      },
+      'translation': 'fisch mag ich auch',
+      'description': '',
+    },
+    {
+      'japanese': {
+        'romaji': 'sakanahasukijanaidesu',
+        'hiragana': 'さかなわすきじゃないです',
+        'kanji': 'さかなわすきじゃないです',
+      },
+      'translation': 'fisch mag nicht',
+      'description': '',
+    },
+    {
+      'japanese': {
+        'romaji': 'nomimono',
+        'hiragana': 'のみもの',
+        'kanji': 'のみもの',
+      },
+      'translation': 'getränk',
+      'description': '',
+    },
+    {
+      'japanese': {
+        'romaji': 'nomimasu',
+        'hiragana': 'のみます',
+        'kanji': 'のみます',
+      },
+      'translation': 'trinken',
+      'description': '',
+    },
+    {
+      'japanese': {
+        'romaji': 'koocha',
+        'hiragana': 'こうちゃ',
+        'kanji': 'こうちゃ',
+      },
+      'translation': 'schwarzer tee',
+      'description': '',
+    },
+    {
+      'japanese': {
+        'romaji': 'ocha',
+        'hiragana': 'おちゃ',
+        'kanji': 'おちゃ',
+      },
+      'translation': 'grüner tee',
+      'description': '',
+    },
+    {
+      'japanese': {
+        'romaji': 'gyuu',
+        'hiragana': 'ぎゅう',
+        'kanji': 'ぎゅう',
+      },
+      'translation': 'Kuh',
+      'description': '',
+    },
+    {
+      'japanese': {
+        'romaji': 'nyuu',
+        'hiragana': 'にゅう',
+        'kanji': 'にゅう',
+      },
+      'translation': 'Milch',
+      'description': '',
+    },
+    {
+      'japanese': {
+        'romaji': 'gyuunyuu',
+        'hiragana': 'ぎゅうにゅう',
+        'kanji': 'ぎゅうにゅう',
+      },
+      'translation': 'kuhmilch',
+      'description': '',
+    },
+    {
+      'japanese': {
+        'romaji': 'juusu',
+        'hiragana': 'ジュース',
+        'kanji': 'ジュース',
+      },
+      'translation': 'saft',
+      'description': '',
+    },
+    {
+      'japanese': {
+        'romaji': 'mizu',
+        'hiragana': 'みず',
+        'kanji': 'みず',
+      },
+      'translation': 'wasser',
+      'description': '',
+    },
+    {
+      'japanese': {
+        'romaji': 'mizu, nomimaska',
+        'hiragana': 'みず、のみますか',
+        'kanji': 'みず、のみますか',
+      },
+      'translation': 'möchten sie wasser',
+      'description': '',
+    },
+    {
+      'japanese': {
+        'romaji': 'iie, kekkoodesu',
+        'hiragana': 'いえ、けっこうです',
+        'kanji': 'いえ、けっこうです',
+      },
+      'translation': 'nein danke',
+      'description': '',
+    },
+    {
+      'japanese': {
+        'romaji': 'hai, doozo',
+        'hiragana': 'はい、どうぞ',
+        'kanji': 'はい、どうぞ',
+      },
+      'translation': 'ja bitte',
+      'description': '',
+    },
+  ],   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
 
   // 'wordlist': [
   //   {
