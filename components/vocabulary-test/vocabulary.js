@@ -984,6 +984,249 @@ export default {
       'translation': 'ja bitte',
       'description': '',
     },
+    {
+      'japanese': {
+        'romaji': 'tokidoki',
+        'hiragana': 'ときどき',
+        'kanji': 'ときどき',
+      },
+      'translation': 'manchmal',
+      'description': '',
+    },
+    {
+      'japanese': {
+        'romaji': 'zenzen',
+        'hiragana': 'ぜんぜん',
+        'kanji': 'ぜんぜん',
+      },
+      'translation': 'alles',
+      'description': '',
+    },
+    {
+      'japanese': {
+        'romaji': 'asagohan',
+        'hiragana': 'あさごはん',
+        'kanji': '朝ごはん',
+      },
+      'translation': 'Frühstück',
+      'description': '',
+    },
+    {
+      'japanese': {
+        'romaji': 'hirogohan',
+        'hiragana': 'ひろごはん',
+        'kanji': '昼御飯',
+      },
+      'translation': 'Mittagessen',
+      'description': '',
+    },
+    {
+      'japanese': {
+        'romaji': 'bangohan',
+        'hiragana': 'ばんごはん',
+        'kanji': '晩ごはん',
+      },
+      'translation': 'Abendessen',
+      'description': '',
+    },
+    {
+      'japanese': {
+        'romaji': 'itsumo',
+        'hiragana': 'いつも',
+        'kanji': 'いつも',
+      },
+      'translation': 'immer',
+      'description': '',
+    },
+    {
+      'japanese': {
+        'romaji': 'yoku',
+        'hiragana': 'よく',
+        'kanji': 'よく',
+      },
+      'translation': 'oft',
+      'description': '',
+    },
+    {
+      'japanese': {
+        'romaji': 'amari',
+        'hiragana': 'あまり',
+        'kanji': 'あまり',
+      },
+      'translation': 'nicht so oft',
+      'description': '',
+    },
+    {
+      'japanese': {
+        'romaji': 'shiro',
+        'hiragana': 'しろ',
+        'kanji': 'しろ',
+      },
+      'translation': 'weiß',
+      'description': '',
+    },
+    {
+      'japanese': {
+        'romaji': 'ringo',
+        'hiragana': 'りんご',
+        'kanji': 'りんご',
+      },
+      'translation': 'apfel',
+      'description': '',
+    },
+    {
+      'japanese': {
+        'romaji': 'beeru',
+        'hiragana': 'ビール',
+        'kanji': 'ビール',
+      },
+      'translation': 'Bier',
+      'description': '',
+    },
+    {
+      'japanese': {
+        'romaji': 'aka',
+        'hiragana': 'あか',
+        'kanji': '赤',
+      },
+      'translation': 'rot',
+      'description': '',
+    },
+    {
+      'japanese': {
+        'romaji': 'kyoo',
+        'hiragana': 'きょう',
+        'kanji': 'きょう',
+      },
+      'translation': 'heute',
+      'description': '',
+    },
+    {
+      'japanese': {
+        'romaji': 'dono',
+        'hiragana': 'どの',
+        'kanji': 'どの',
+      },
+      'translation': 'welche',
+      'description': '',
+    },
+    {
+      'japanese': {
+        'romaji': 'riyoori',
+        'hiragana': 'りようり',
+        'kanji': 'りようり',
+      },
+      'translation': 'Gericht',
+      'description': '-> essen',
+    },
+    {
+      'japanese': {
+        'romaji': 'sukina',
+        'hiragana': 'すきな',
+        'kanji': 'すきな',
+      },
+      'translation': 'Lieblings',
+      'description': 'z.b. Lieblings essen etc. ',
+    },
+    {
+      'japanese': {
+        'romaji': 'ichiban',
+        'hiragana': 'いちばん',
+        'kanji': 'いちばん',
+      },
+      'translation': 'sehr',
+      'description': 'wie sehr mögen',
+    },
+    {
+      'japanese': {
+        'romaji': 'hotto',
+        'hiragana': 'ホット',
+        'kanji': 'ホット',
+      },
+      'translation': 'heiß',
+      'description': '',
+    },
+    {
+      'japanese': {
+        'romaji': 'aisu',
+        'hiragana': 'アイス',
+        'kanji': 'アイス',
+      },
+      'translation': 'eis',
+      'description': '',
+    },
+    { 
+      'japanese': {
+          'romaji': 'kore',
+          'hiragana': 'これ',
+          'kanji': '',
+      },
+      'translation': 'Das',
+      'description': 'wie... das da bitte',
+    },
+    {
+      'japanese': {
+        'romaji': 'mohitotsu',
+        'hiragana': 'もうひとつ',
+        'kanji': 'もうひとつ',
+      },
+      'translation': 'noch eins',
+      'description': 'bestellen',
+    },
+    {
+      'japanese': {
+        'romaji': 'yasui',
+        'hiragana': 'やすい',
+        'kanji': 'やすい',
+      },
+      'translation': 'günstig',
+      'description': '',
+    },
+    {
+      'japanese': {
+        'romaji': 'hayai',
+        'hiragana': 'はやい',
+        'kanji': 'はやい',
+      },
+      'translation': 'schnell',
+      'description': '',
+    },
+    {
+      'japanese': {
+        'romaji': 'ano',
+        'hiragana': 'あの',
+        'kanji': 'あの',
+      },
+      'translation': 'drüben',
+      'description': 'wie da drüben',
+    },
+    {
+      'japanese': {
+        'romaji': 'mise',
+        'hiragana': 'みせ',
+        'kanji': '店',
+      },
+      'translation': 'Geschäft',
+      'description': '',
+    },
+    {
+      'japanese': {
+        'romaji': 'Mashou',
+        'hiragana': 'ましょう',
+        'kanji': 'ましょう',
+      },
+      'translation': 'Lasst uns',
+      'description': '',
+    },
+    {
+      'japanese': {
+        'romaji': 'Pasuta',
+        'hiragana': 'パスタ',
+        'kanji': 'パスタ',
+      },
+      'translation': 'Nudeln',
+      'description': '',
+    },
   ],   
   
   
